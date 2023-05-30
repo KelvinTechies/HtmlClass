@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.container-head{
+    display: flex;
+    margin: 10px;
+    width: 350px;
+    padding: 20px;
+}
+
+header{
+    width: 20%;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;  
+    width: 350px;
+    color: black;
+    width: 100%;      
+}
+
+a:hover{
+    background: grey;
+    width: 100%;
+}
+
+.li{
+    list-style-type: none;
+    padding-bottom: 25px;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;    
+}
+
+.ul{
+    padding: 25px;
+    width: 100%;
+    
+}
+
+/* .youtube-session{
+   
+    margin-left: 0%;
+    margin-bottom: 600px;
+    padding: 10px;
+} */
+
+.body-wrap{
+    display: flex;
+}
+
+form{
+    position: relative;
+}
+
+input{
+    height: 40px;
+    /* width: 550px; */
+    width: 40em;
+    border: grey solid 1px;
+}
+.button{
+    height: 40px;
+    margin-left: -5%;
+    padding: 5%;
+    padding-bottom: 2%;
+    position: absolute;
+    right:0;
+    border: grey solid 1px;
+}
+
+.small-search{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-flex{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.sign{
+    margin-left: 25em;
+    border: solid blue 1px;
+    height: 10%;
+    padding-left: 50px;
+}
+
+.default{
+    width: 20px;
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    border-radius: 49px;
+    border-color: blue;
+}
+
+.img{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+}
+
+img{
+    width: 15px;
+    position: absolute;
+    top: 5px;
+    left: 26em;
+    border-radius: 50px;
+    background: blue;
+}
+
+
+.row{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 15px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.btn{
+    width: 10%;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 20px;
+    margin: 10px;
+    border:1px grey solid;
+}
+
+.b{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.button-arrange{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}

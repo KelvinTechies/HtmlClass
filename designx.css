@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.p{
+    width: 40px;
+    margin: 80px 0 0 70px;
+    cursor: pointer;
+}
+
+.brand{
+    float: left;
+    width: 80%;
+    /* margin-left: 50px; */
+    margin: 80px 0 0 70px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.id{
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 60px;
+    color: #fff;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bgrnd{
+    background: url(./Image/kobby-mendez-d0oYF8hm4GI-unsplash.jpg);
+    /* position: absolute;     */
+    background-size: cover;    
+    background-position: center;
+    height: 650px;
+    width: auto;
+    opacity:0.7;
+}
+
+
+.a{
+    font-size: 40px;
+    padding: 20px;
+    
+}
+
+
+.wrap{
+    padding: 70px;
+    float: left;
+    width: 50%;
+}
+.about{
+    background: #162c3b;
+    overflow: hidden;
+    float: left;
+
+}
+p{
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1em;
+    padding: 20px;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.pic{
+    float: right;
+    width: 50%;
+    height: 100vh;
+    margin-top:-70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.serve{
+    background: #324;
+}
+
+.lor{
+    color: black;
+}
